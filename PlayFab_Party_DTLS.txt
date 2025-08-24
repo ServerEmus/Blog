@@ -1,0 +1,10 @@
+When PlayFab request to make a party.
+It sends back an ip to an aws list of servers.
+This server has a unique way of communication.
+As in the return json it has interesting data: "DTLS"
+DTLS means Datagram Transport Layer Security.
+That means its encrypted communication.
+Happily IEEE has a standart for it.
+DTLS is similar to TLS over TCP.
+Not many people implemented this kind of communication.
+Good news to us because PlayFab's dll's has PDB!
