@@ -1,0 +1,12 @@
+When you request to login you get back a Session Ticket
+
+This is how its being done:
+
+FFFFFFFFFFFFFFFF-FFFFFFFFFFFFFFFF-FFFFFFFFFFFFFFFF-FFFFF-FFFFFFFFFFFFFFFF-REDACTED
+
+Master Account Id / PlayFab Id
+Custom ID
+Title Account Id
+Title Id
+??
+Base64 32 byte data. (Hash?)
